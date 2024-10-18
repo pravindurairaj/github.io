@@ -92,8 +92,7 @@ function displaySection(link,section) {
 }
 
 // dark and light mode 
-// document.documentElement.style.setProperty('--background-color', '#fafafa');
-document.documentElement.style.setProperty('--background-color', darkColor);
+document.documentElement.style.setProperty('--background-color', '#fafafa');
 function switchDarkLightMode() {
     let icon = document.querySelector("#switch-container img");
    
