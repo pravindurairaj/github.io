@@ -147,6 +147,7 @@ function switchDarkLightMode() {
 
 switchDarkLightMode();
 displaySection("about-me","about-me-section");
+displaySection("experience","experience-section");
 displaySection("skills","skills-section");
 displaySection("projects","projects-section");
 displaySection("links","links-section");
