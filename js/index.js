@@ -28,7 +28,7 @@ function displaySection(link,section) {
             if(section == "skills-section") {
                 let div = document.querySelector(`#${section} > article`);
                 div.style.display = "flex";
-                div.style.flexDirection = "column";
+                div.style.flexDirection = "column";`` 
                 let subElement = document.querySelectorAll(`#${section} li`);
                 for (se of subElement){
                     se.style.fontFamily = "roboto mono";
