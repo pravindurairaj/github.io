@@ -33,6 +33,12 @@ function displaySection(link,section) {
                 for (se of subElement){
                     se.style.fontFamily = "roboto mono";
                 }
+
+            } else if (section == "experience-section") {
+                let s = document.querySelector("#experience-wrapper");
+
+                s.style.display = "flex";
+                s.style.flexDirection = "column";
                 
             } else if (section == "projects-section") {
                 let s = document.querySelector("#projects-wrapper");
